@@ -1,7 +1,7 @@
 import 'react-native-get-random-values';
 
 export default class AffiliationDatabaseService {
-    static URL = "http://192.168.33.17:5000/api/Affiliation";
+    static URL = "http://reactproj.somee.com/api/Affiliation";
 
     static createAbortController() {
         const TIMEOUT = 5000;
@@ -126,3 +126,4 @@ export default class AffiliationDatabaseService {
         }
     }
 }
+
