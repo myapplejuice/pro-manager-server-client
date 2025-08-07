@@ -1,7 +1,7 @@
 import 'react-native-get-random-values';
 
 export default class ApplicationDatabaseService {
-  static URL = "http://192.168.33.17:5000/api/Application";
+  static URL = "http://reactproj.somee.com/api/Application";
 
   static createAbortController() {
     const TIMEOUT = 5000;
@@ -203,3 +203,4 @@ export default class ApplicationDatabaseService {
     }
   }
 }
+
