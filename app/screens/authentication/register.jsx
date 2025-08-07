@@ -250,13 +250,13 @@ export default function Register() {
                                 <AnimatedButton
                                     onPress={() => setGender("Male")}
                                     title="MALE"
-                                    style={[styles.roleButton, { backgroundColor: gender === 'male' ? 'rgb(0, 70, 130)' : "rgb(10,10,10)" }]}
+                                    style={[styles.roleButton, { backgroundColor: gender === 'Male' ? 'rgb(0, 70, 130)' : "rgb(10,10,10)" }]}
                                     textStyle={styles.roleButtonText}
                                 />
                                 <AnimatedButton
                                     onPress={() => setGender("Female")}
                                     title="FEMALE"
-                                    style={[styles.roleButton, { backgroundColor: gender === 'female' ? 'rgb(0, 70, 130)' : "rgb(10,10,10)" }]}
+                                    style={[styles.roleButton, { backgroundColor: gender === 'Female' ? 'rgb(0, 70, 130)' : "rgb(10,10,10)" }]}
                                     textStyle={styles.roleButtonText}
                                 />
                             </>)}
@@ -361,4 +361,5 @@ export default function Register() {
             </KeyboardAvoidingView>
         </TouchableWithoutFeedback>
     )
+
 };
