@@ -2,8 +2,7 @@ import AsyncStorageService from '../async-storage-service'
 import 'react-native-get-random-values';
 
 export default class UserDatabaseService {
-    // static URL = "http://reactproj.somee.com/api/User";
-    static URL = "http://192.168.33.17:5000/api/User";
+    static URL = "http://reactproj.somee.com/api/User";
 
     static createAbortController() {
         const TIMEOUT = 5000;
@@ -246,3 +245,4 @@ export default class UserDatabaseService {
         }
     }
 }
+
